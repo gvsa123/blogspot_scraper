@@ -28,7 +28,6 @@ import time
 
 webpage = raw_input('Enter website: ') 
 
-<<<<<<< HEAD
 # Open url list. Check if blog already exists. Exit if True.
 with open("url_list.txt", "a+") as url_list:
 	if webpage not in url_list.read():
@@ -41,16 +40,8 @@ with open("url_list.txt", "a+") as url_list:
 time.sleep(.5)
 
 # Process html with BS4
-=======
-# Include way to check if website already in url_list.txt
-
-with open("url_list.txt", "a") as url_list:
-	url_list.write(webpage + "\n")
-	print("\nAdded webpage to url_list.txt \n")
-
 time.sleep(.5)
 
->>>>>>> 61774178942ee445d0e9c400a8c7bf9f7dad0003
 print("Creating soup for {}".format(webpage))
 url0 = webpage
 response = requests.get(url0)
@@ -58,19 +49,13 @@ soup = BeautifulSoup(response.text, 'html.parser')
 
 time.sleep(.5)
 
-<<<<<<< HEAD
 # Get filename
-=======
->>>>>>> 61774178942ee445d0e9c400a8c7bf9f7dad0003
 print("\nPreparing to write file. \n")
 file_name = raw_input("Enter filename (data_ADDR.txt) : ")
 
 time.sleep(.5)
 
-<<<<<<< HEAD
 # Save text to file
-=======
->>>>>>> 61774178942ee445d0e9c400a8c7bf9f7dad0003
 print("\nExtracting text... \n")
 
 with open(file_name, 'w') as file:
