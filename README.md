@@ -1,6 +1,8 @@
 # blogspot_scraper
 A blog scraper for the Blogspot platform.
 
-This is part of a project proposal for a research methodology class in Sociology.
+## Purpose
 
-In summary, the propsed study was to use text mining techniques (i.e. BeautifulSoup) as data gathering methods to study blogs under the Blogspot platform. The gathered data can later be processed using Natural Language Processing Toolkits (NLTK), or to be content analyzed using traditioal social science methods.
+Project proposal for research in Sociology using Natural Language Processing.
+
+To demonstrate the use of data mining methods in computer science to study blogs under the Blogspot platform. The gathered data can later be processed using Natural Language Processing Toolkits (e.g. NLTK), or to be content analyzed using traditioal social science methods.

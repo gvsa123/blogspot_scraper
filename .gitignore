@@ -1,18 +1,3 @@
 # files to ignore
-
-blogspot_1.py
-blogspot_2.py
-blogspot_3.py
-blogspot_4.py
-blogspot_scraper.py
-carpentry.txt
-data_homelesschroniclesintampa.txt
-data_homevan.txt
-data_joe-anybody.txt
-data_livinghomelessourwritetospeak.txt
-data_seattlehomeless.txt
-data_TEST.txt
-data_thehomelessfinch.txt
-data_wanderingscribe.txt
-read me.txt
+data*
 url_list.txt
