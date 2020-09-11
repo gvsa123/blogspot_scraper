@@ -1,4 +1,5 @@
 # files to ignore
+*.csv
 data*
 url_list.txt
 .ipynb_checkpoints
