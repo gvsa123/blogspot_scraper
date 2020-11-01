@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 textblob = "*"
+bs5 = "*"
+bs4 = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
