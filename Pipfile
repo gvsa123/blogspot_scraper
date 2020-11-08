@@ -10,6 +10,9 @@ textblob = "*"
 bs5 = "*"
 bs4 = "*"
 requests = "*"
+spacy = "*"
+gensim = "*"
+texthero = "*"
 
 [requires]
 python_version = "3.8"
