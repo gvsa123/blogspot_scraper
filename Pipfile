@@ -7,12 +7,12 @@ verify_ssl = true
 
 [packages]
 textblob = "*"
-bs5 = "*"
 bs4 = "*"
 requests = "*"
 spacy = "*"
 gensim = "*"
 texthero = "*"
+pyspellchecker = "*"
 
 [requires]
 python_version = "3.8"
