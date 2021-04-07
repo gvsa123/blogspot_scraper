@@ -16,3 +16,8 @@ To demonstrate the use of data mining methods in computer science to study blogs
 |`blog_spot.csv`|Initial `csv` after scrape|
 |`blog_tokenizer.ipynb`|Dataframe/text cleaning and testing|
 |`SentimentAnalysis.ipynb`|Testing sentiment analysis application to dataset|
+
+### Disclaimer
+This is a self-directed learning exercise, and I probably got (a lot) some things wrong. I started to learn about normalizing the data and creating the model, stopped there and uploaded the code. If there is anything blatantly obvious and you have the time, please point it out and PM me at my git_username gmail.com email. 
+
+As of this edit, I have resumed work on this, thanks to COVID. Hopefully I can actually figure out how to get this model working with the blog_spot dataset.
