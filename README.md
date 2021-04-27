@@ -6,10 +6,10 @@ A blog scraper for the Blogspot platform.
 Project proposal for research in Sociology using Natural Language Processing.
 
 ### Objective
-To demonstrate the use of data mining methods in data science to study blogs under the Blogspot platform. The gathered data can later be processed using Natural Language Processing Toolkits (e.g. summary extraction, topic modelling, etc.), or to be content analyzed using traditional social science methods.
+To demonstrate the use of data mining methods in data science to study blogs under the Blogspot platform. The gathered data can later be processed using Natural Language Processing Toolkits (e.g. summary extraction, topic modelling, etc.), or to be content analyzed using traditional social science research methods.
 
 ### Note
-Most of the work can be found in the `gensim.ipynb`. I believe I have the `tf-idf` modelling down. I recently worked on creating the similarity matrix, but I'd have to make sure.
+Most of the work can be found in the `gensim.ipynb` under the `nlp` directory. The dataset has been normalized onto a `tf-idf` model which can then be passed onto a word2vec model. 
 
 ## Tree
 |Files|Description|
@@ -22,6 +22,6 @@ Most of the work can be found in the `gensim.ipynb`. I believe I have the `tf-id
 |`gensim.ipynb`|Applying transformations based on the Gensim library|
 
 ### Disclaimer
-This is a self-directed learning exercise, and I probably got (a lot) some things wrong. I started to learn about normalizing the data and creating the model, stopped there and uploaded the code. If there is anything blatantly obvious and you have the time, please point it out and PM me at my git_username gmail.com email. 
+The initial work in Sociology technically ended after the data gathering process (scraping). Everything else after that has been a self-directed learning exercise in natural language processing. Currently, I am working through Michael Nielsen's [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html). Hopefully I can get to a point where I can create an artificially labelled dataset to train on.
 
-As of this edit, I have resumed work on this, thanks to COVID. Hopefully I can actually figure out how to get this model working with the blog_spot dataset.
+For corrections, please PM me at my git_username gmail.com email.
